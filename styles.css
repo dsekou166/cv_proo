@@ -21,7 +21,7 @@ body{
 .left-section{
     grid-column: span 2;
     height: 100%;
-    background-color: #00324A;
+    background-color:rgb(95, 93, 93);
 }
 .right-section{
     grid-column: span 5;
@@ -53,27 +53,29 @@ body{
     font-size: 2rem;
     color: white;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     padding: 1.2rem 0;
 }
 
 .career{
     font-size: 1.2rem;
-    color: #94D9EA;
+    color: black;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     padding-bottom: 1rem;
 }
 
 .main-title{
+    border-top: #718096 solid 1PX;
+    border-bottom: #718096 solid 1PX;
     font-size: 1.8rem;
-    text-transform: uppercase;
+    text-transform: none;
     letter-spacing: 1px;
     color: #f7f7f7ec;
-    padding-top: 3rem;
-
+    height: 100%;
+    width: 100%;
 }
 
 .contact-info ul{
@@ -144,7 +146,7 @@ body{
 .sub-title{
     padding-top: 2rem;
     font-size: 1.2rem;
-    text-transform: uppercase;
+    text-transform: none;
     color: #f7f7f7;
 }
 
@@ -160,7 +162,7 @@ body{
 .references-section li i{
     padding-right: .5rem;
     font-size: 1.2rem;
-    color: #2D9CDB;
+    color:black;
 }
 
 .right-main-content{
@@ -169,15 +171,17 @@ body{
 
 
 .right-title{
+    border-top: #718096 solid 1px;
+    border-bottom: #718096 solid 1px;
     letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #2F80ED;
+    text-transform: none;
+    color: black;
     margin-bottom: 1.2rem;
     position: relative;
 }
 
 .right-title::after{
-    content: "";
+    content: none;
     position: absolute;
     width: 60%;
     height: .2rem;
@@ -207,18 +211,18 @@ body{
 .tl-title{
     letter-spacing: 1px;
     font-size: 1.3rem;
-    color: #002333;
-    text-transform: uppercase;
+    color:black;
+    text-transform: none;
 }
 .tl-title-2{
     letter-spacing: 1px;
     font-size: 1.3rem;
-    color: #2D9CDB;
-    text-transform: uppercase;
+    color: black;
+    text-transform: none;
 }
 
 .tl-content{
-    border-left: 1px solid #ccc;
+    
     padding-left: 2rem;
     position: relative;
     padding-bottom: 2rem;
@@ -229,7 +233,7 @@ body{
     position: absolute;
     width: .7rem;
     height: .7rem;
-    background-color: #2D9CDB;
+    background-color: black;
     border-radius: 50%;
     transform: translateX(-50%);
     left: 0;
